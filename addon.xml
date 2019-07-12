@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.thisislove" name="This Is Love Podcast" version="1.0.0" provider-name="leopheard">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.routing" version="0.2.0"/>
+    <import addon="script.module.simplejson" version="3.16.0"/>
+    <import addon="script.module.ijson" version="2.3"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en">This Is Love podcast</summary>
+    <description lang="en">HOW TO BE ALONE, HOW TO LIVE FOREVER, HOW TO WAIT, HOW TO WORRY, AND YES, HOW TO LOVE.
+    </description>
+    <license>The MIT License (MIT)</license>
+    <forum></forum>
+    <email>leopheard@protonmail.com</email>
+    <source>https://github.com/leopheard/plugin.audio.thisislove.git</source>
+    <website>https://thisislovepodcast.com</website>
+    <audio_guide></audio_guide>
+        	<assets>
+			<icon>resources/media/icon.png</icon>
+			<fanart>resources/media/fanart.png</fanart>
+			<screenshot>resources/media/screenshot1.jpeg</screenshot>
+			<screenshot>resources/media/ThisIsLove_SocialShare_2.png</screenshot>
+			<screenshot>resources/media/ThisIsLove_SocialShare_1.png</screenshot>
+		</assets>
+  </extension>
+</addon>
