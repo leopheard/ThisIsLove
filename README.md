@@ -3,7 +3,7 @@ This Is Love podcast
 
 KODI / XBMC / Firestick audio addon for the audio podcasts from This Is Love
 
-<a href="https://thisislovepodcast.com">ThisIsLovePodast.com</a>
+<a href="https://thisislovepodcast.com">ThisIsLovePodast.com</a><br>
 #ThisIsLove<br>
 #podcast<br>
 #NPR<br>
